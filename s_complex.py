@@ -115,5 +115,5 @@ if __name__ == "__main__":
             #print tags[i][0] + " " + tags[i][1] + " " + tags[i][2]
             #print bitCompress(tags[i][3]), entropyInBits(tags[i][3]), evolution(tags[i][3])
             value = str(bitCompress(tags[i][3])) + " " + str(entropyInBits(tags[i][3])) + " " + str(evolution(tags[i][3])) + "\n"
-            print value
+            #print value
             output.write(value)
